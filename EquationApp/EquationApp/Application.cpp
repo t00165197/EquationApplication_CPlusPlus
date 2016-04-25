@@ -1,9 +1,10 @@
 //Application layer, containing main method and Console UI code
-
+#include "stdafx.h"
 #include "Logic.h"		//Neede for main program to use Logic class
 #include <iostream>
 #include <regex>		//Used to check user input string for letters
 using namespace std;
+using namespace EquationApp;
 
 class Application
 {
