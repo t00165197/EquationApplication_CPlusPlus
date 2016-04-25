@@ -286,5 +286,18 @@ namespace EquationAppTest
 		}
 
 
+
+
+		//--------------------------------------//
+		//--- DoMath() Code Coverage Example ---//
+		//--------------------------------------//
+
+		TEST_METHOD(NormalMathDecimalTest)
+		{
+			Logic log;
+			equation = "1.056-1.056";
+			expected = 0;
+			Assert::AreEqual(expected, log.functionDecider(equation));
+		}
 	};
 }
