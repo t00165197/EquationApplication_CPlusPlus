@@ -42,11 +42,8 @@
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
-<<<<<<< HEAD
     <CharacterSet>Unicode</CharacterSet>
-=======
     <CharacterSet>MultiByte</CharacterSet>
->>>>>>> refs/remotes/TomCronin/master
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
