@@ -170,13 +170,13 @@ namespace EquationAppTest
 
 		//----- ADD AND SUBTRACT ------//
 
-		/*TEST_METHOD(AddSubBracketTest)											//===================================== EXAMPLE TO SHOW HERE (CODE CHANGE TO PUSH)
+		TEST_METHOD(AddSubBracketTest)											//===================================== EXAMPLE TO SHOW HERE (CODE CHANGE TO PUSH)
 		{
 			Logic log;
 			equation = "1+(2-1))";
 			expected = 2;
 			Assert::AreEqual(expected, log.functionDecider(equation));
-		}*/
+		}
 
 		TEST_METHOD(SubAddBracketTest)
 		{
