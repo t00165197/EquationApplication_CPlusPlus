@@ -299,5 +299,6 @@ namespace EquationAppTest
 			expected = 0;
 			Assert::AreEqual(expected, log.functionDecider(equation));
 		}
+
 	};
 }
